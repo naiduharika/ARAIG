@@ -1,0 +1,801 @@
+Script started on Fri 09 Dec 2016 12:22:14 AM EST
+hnaidu@matrix:~/BTP305/termProject/m4> whoami
+hnaidu
+hnaidu@matrix:~/BTP305/termProject/m4> g++ -Wall -std=c++0x -o m4 *.cpp 
+hnaidu@matrix:~/BTP305/termProject/m4> m4 StimulationConfig.csv TaskConfiguration.csv SampleProfileConfiguration.csv output.dat
+
+Command Line : m4 StimulationConfig.csv TaskConfiguration.csv SampleProfileConfiguration.csv output.dat 
+Student:     Chloe Coleshill - 123456789
+Instructor:  Eliott Coleshill - 987654321
+Student Calibration:
+MAX = 80
+MIN = 20
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 1
+==============================
+Task Name: Task1
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim2
+     Type = stims
+     Location = back
+     Intensity = 87
+     Frequency =  35
+     duration: 10
+Sim22
+     Type = exosceleton
+     Intensity = 67
+     duration = 5
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+==============================
+Task Name: Task5
+==============================
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim1
+     Type = stims
+     Location = front
+     Intensity = 66
+     Frequency =  60
+     duration: 0
+==============================
+Task Name: Task4
+==============================
+Sim7
+     Type = stims
+     Location = traps
+     Intensity = 68
+     Frequency =  60
+     duration: 3
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+Sim23
+     Type = exosceleton
+     Intensity = 75
+     duration = 5
+Sim27
+     Type = stims
+     Location = abs
+     Intensity = 82
+     Frequency =  95
+     duration: 8
+Sim26
+     Type = exosceleton
+     Intensity = 24
+     duration = 4
+Sim18
+     Type = exosceleton
+     Intensity = 76
+     duration = 10
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+==============================
+Task Name: Task16
+==============================
+Sim17
+     Type = stims
+     Location = front
+     Intensity = 32
+     Frequency =  14
+     duration: 1
+Sim26
+     Type = exosceleton
+     Intensity = 24
+     duration = 4
+Sim9
+     Type = exosceleton
+     Intensity = 47
+     duration = 5
+Sim9
+     Type = exosceleton
+     Intensity = 47
+     duration = 5
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+==============================
+Task Name: Task17
+==============================
+Sim6
+     Type = exosceleton
+     Intensity = 3
+     duration = 2
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+==============================
+Task Name: Task7
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+Sim18
+     Type = exosceleton
+     Intensity = 76
+     duration = 10
+
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task1
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim2
+     Type = stims
+     Location = back
+     Intensity = 87
+     Frequency =  35
+     duration: 10
+Sim22
+     Type = exosceleton
+     Intensity = 67
+     duration = 5
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task5
+==============================
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim1
+     Type = stims
+     Location = front
+     Intensity = 66
+     Frequency =  60
+     duration: 0
+
+Press Enter to continue...
+3
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 3
+Next Task is... 
+**Task4**
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 4
+Last completed Task is... 
+**Task5**
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 5
+==============================
+Task Name: Task1
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim2
+     Type = stims
+     Location = back
+     Intensity = 87
+     Frequency =  35
+     duration: 10
+Sim22
+     Type = exosceleton
+     Intensity = 67
+     duration = 5
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+==============================
+Task Name: Task5
+==============================
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim1
+     Type = stims
+     Location = front
+     Intensity = 66
+     Frequency =  60
+     duration: 0
+
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task4
+==============================
+Sim7
+     Type = stims
+     Location = traps
+     Intensity = 68
+     Frequency =  60
+     duration: 3
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+Sim23
+     Type = exosceleton
+     Intensity = 75
+     duration = 5
+Sim27
+     Type = stims
+     Location = abs
+     Intensity = 82
+     Frequency =  95
+     duration: 8
+Sim26
+     Type = exosceleton
+     Intensity = 24
+     duration = 4
+Sim18
+     Type = exosceleton
+     Intensity = 76
+     duration = 10
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task16
+==============================
+Sim17
+     Type = stims
+     Location = front
+     Intensity = 32
+     Frequency =  14
+     duration: 1
+Sim26
+     Type = exosceleton
+     Intensity = 24
+     duration = 4
+Sim9
+     Type = exosceleton
+     Intensity = 47
+     duration = 5
+Sim9
+     Type = exosceleton
+     Intensity = 47
+     duration = 5
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task17
+==============================
+Sim6
+     Type = exosceleton
+     Intensity = 3
+     duration = 2
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** Executing Flight Plan **
+==============================
+Task Name: Task7
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+Sim18
+     Type = exosceleton
+     Intensity = 76
+     duration = 10
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 2
+
+ ** End of Flight Plan ** 
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 6 5
+==============================
+Task Name: Task1
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim2
+     Type = stims
+     Location = back
+     Intensity = 87
+     Frequency =  35
+     duration: 10
+Sim22
+     Type = exosceleton
+     Intensity = 67
+     duration = 5
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+==============================
+Task Name: Task5
+==============================
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim1
+     Type = stims
+     Location = front
+     Intensity = 66
+     Frequency =  60
+     duration: 0
+==============================
+Task Name: Task4
+==============================
+Sim7
+     Type = stims
+     Location = traps
+     Intensity = 68
+     Frequency =  60
+     duration: 3
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+Sim23
+     Type = exosceleton
+     Intensity = 75
+     duration = 5
+Sim27
+     Type = stims
+     Location = abs
+     Intensity = 82
+     Frequency =  95
+     duration: 8
+Sim26
+     Type = exosceleton
+     Intensity = 24
+     duration = 4
+Sim18
+     Type = exosceleton
+     Intensity = 76
+     duration = 10
+==============================
+Task Name: Task15
+==============================
+Sim15
+     Type = stims
+     Location = back
+     Intensity = 41
+     Frequency =  88
+     duration: 4
+Sim13
+     Type = stims
+     Location = front
+     Intensity = 63
+     Frequency =  47
+     duration: 7
+Sim12
+     Type = exosceleton
+     Intensity = 7
+     duration = 10
+==============================
+Task Name: Task16
+==============================
+Sim17
+     Type = stims
+     Location = front
+     Intensity = 32
+     Frequency =  14
+     duration: 1
+Sim26
+     Type = exosceleton
+     Intensity = 24
+     duration = 4
+Sim9
+     Type = exosceleton
+     Intensity = 47
+     duration = 5
+Sim9
+     Type = exosceleton
+     Intensity = 47
+     duration = 5
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+Sim32
+     Type = exosceleton
+     Intensity = 93
+     duration = 0
+==============================
+Task Name: Task17
+==============================
+Sim6
+     Type = exosceleton
+     Intensity = 3
+     duration = 2
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+==============================
+Task Name: Task7
+==============================
+Sim30
+     Type = stims
+     Location = traps
+     Intensity = 55
+     Frequency =  36
+     duration: 6
+Sim10
+     Type = exosceleton
+     Intensity = 82
+     duration = 3
+Sim18
+     Type = exosceleton
+     Intensity = 76
+     duration = 10
+
+
+Press Enter to continue...
+
+------------------------------------------------------
+Flight Plan Management Tool
+*** Choose from options (1 - 5) or press 0 to exit ***
+______________________________________________________
+1 - Display all Tasks
+2 - Exectue a Task
+3 - Display Next task
+4 - Display Last completed task
+5 - Display all completed tasks
+0 - Exit
+> - 0
+Existing Flight Plan, Good Bye!!
+
+Press any key to continue ... 
+hnaidu@matrix:~/BTP305/termProject/m4> 
+hnaidu@matrix:~/BTP305/termProject/m4> exit
+exit
+
+Script done on Fri 09 Dec 2016 12:24:42 AM EST
